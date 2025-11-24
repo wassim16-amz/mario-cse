@@ -106,7 +106,7 @@ body {
 }
 
 .content-section {
-    background-image: url(red_border.png);
+    background-color: #E51F1F;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
@@ -280,4 +280,5 @@ body {
     height: auto;
     border-radius: 16px;
     
+
 }
