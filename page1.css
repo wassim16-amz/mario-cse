@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 60px;
+}
+
+.navbar {
+    background: #05223e;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ecf0f1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: #ecf0f1;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #3498db;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #ff1900;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scw {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: -20px;
+}
+
+.scw_i {
+    margin-top: -55px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+    border-radius: 19px;
+}
+
+.img-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.small-img {
+    width: 175px;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.content-section {
+    background-image: url(red_border.png);
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cadre {
+    background-color: rgb(44, 44, 44);
+    border-radius: 19px;
+    background-image: url(dark.png);
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cadre-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#side {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 19px;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+#pp {
+    color: #ffffff;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1200px) {
+
+    #abtcse,
+    #side {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .cadre {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.bg {
+    background-image: url('mkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+#turtle1 {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: -300px;
+    margin-left: 225px;
+    position: relative;
+}
+
+#turtle2 {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-top: -300px;
+    margin-right: 225px;
+    position: relative;
+}
+
+#csethink {
+    width: 375px;
+    height: 245px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 80px;
+    border-radius: 19px;
+}
+
+.cadre2 {
+    background-color: rgba(44, 44, 44, 0);
+    border-radius: 19px;
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_cse {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgcse {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+#pp2 {
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+#id {
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+#cse_logo {}
+
+#mini_id {
+    display: block;
+    margin-bottom: 15px;
+    color: #666;
+    margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #imgcse {
+        max-width: 250px;
+    }
+}
+
+#mashroom {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-left: 25px;
+}
+.agenda{
+    
+}
+.img-container-map{
+    background-image: url(map.png);
+    width: 60%;
+    height: auto;
+    border-radius: 16px;
+    
+}
