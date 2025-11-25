@@ -97,6 +97,15 @@ body {
     margin-top: 35px;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
 .small-img {
     width: 175px;
     height: auto;
@@ -150,8 +159,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-
-    #abtcse,
     #side {
         float: none;
         margin: 0 auto 20px auto;
@@ -191,14 +198,6 @@ body {
     position: relative;
 }
 
-#csethink {
-    width: 375px;
-    height: 245px;
-    float: right;
-    margin-right: 250px;
-    margin-top: 80px;
-    border-radius: 19px;
-}
 
 .cadre2 {
     background-color: rgba(44, 44, 44, 0);
@@ -245,7 +244,6 @@ body {
     margin-left: 100px;
 }
 
-#cse_logo {}
 
 #mini_id {
     display: block;
@@ -271,14 +269,72 @@ body {
     float: left;
     margin-left: 25px;
 }
-.agenda{
-    
-}
-.img-container-map{
-    background-image: url(map.png);
-    width: 60%;
-    height: auto;
-    border-radius: 16px;
-    
 
+/* Agenda section styles */
+.agenda {
+    padding: 40px 20px 80px;
+}
+
+.agenda-card {
+    background: #172541;
+    border-radius: 22px;
+    padding: 24px 24px 32px;
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.agenda-title {
+    color: #ecf0f1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.agenda-canvas {
+    background: transparent;
+    position: relative;
+    height: 220px;
+    border-radius: 16px;
+}
+
+.agenda-path {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.agenda-node {
+    width: 120px;
+    height: 120px;
+    background: #dcdcdc;
+    border-radius: 14px;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.25);
+    position: absolute;
+}
+
+.node-left { left: 8%; top: 10%; }
+.node-center { left: 45%; top: 45%; }
+.node-right { right: 8%; top: 10%; }
+
+.agenda-pipe {
+    position: absolute;
+    left: 8px;
+    bottom: -8px;
+    width: 70px;
+}
+
+.agenda-star {
+    position: absolute;
+    right: 12px;
+    bottom: 6px;
+    width: 48px;
+}
+
+@media (max-width: 768px) {
+    .agenda-canvas { height: 280px; }
+    .agenda-node { width: 100px; height: 100px; }
+    .node-center { left: 38%; top: 52%; }
 }
