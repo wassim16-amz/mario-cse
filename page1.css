@@ -433,3 +433,6 @@ body {
   color: white; 
   font-weight: bold; 
 }
+.faq-answer {
+  display: none;
+}
