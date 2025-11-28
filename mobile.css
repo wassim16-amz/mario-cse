@@ -1,0 +1,223 @@
+
+
+@media (max-width: 768px) {
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: white;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+    }
+
+    
+    .navbar, 
+    .nav-links, 
+    .btn {
+        display: none !important;
+    }
+
+   
+    header .bg {
+        width: 100%;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ff4242;
+        position: relative;
+        text-align: center;
+    }
+
+    #scw {
+        width: 65%;
+        margin-bottom: 20px;
+    }
+
+    .scw_i p {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .scw_i b {
+        color: white;
+        font-size: 14px;
+        margin: 2px 0;
+        display: block;
+    }
+
+    .img-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .small-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #turtle1,
+    #turtle2 {
+        width: 70px;
+        margin-top: 25px;
+    }
+
+    
+    header .bg::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 70px;
+        background: url('zigzagred.png') no-repeat bottom;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    
+    .cadre {
+        width: 100%;
+        padding: 30px 20px;
+        background: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cadre-content {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    #side {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    #pp {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+    }
+
+    
+    .cadre::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 70px;
+        background: url('zigzagred.png') no-repeat top;
+        background-size: cover;
+        margin-top: 10px;
+    }
+
+   
+    .about_cse {
+        background: #ff4242;
+        padding: 40px 20px;
+        text-align: center;
+        color: white;
+    }
+
+    #id {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    #mini_id {
+        font-size: 16px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    #pp2 {
+        font-size: 14px;
+        color: white;
+        line-height: 1.5;
+    }
+
+    #imgcse {
+        width: 80%;
+        margin-top: 25px;
+        border-radius: 15px;
+    }
+
+    
+    .about_cse::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 70px;
+        background: url('white.png') no-repeat bottom;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    
+    #mashroom {
+        width: 60%;
+        display: block;
+        margin: 30px auto;
+    }
+
+    
+    .agenda {
+        padding: 30px 20px;
+        text-align: center;
+        background: white;
+    }
+
+    .agenda-title {
+        font-size: 26px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .agenda-canvas {
+        width: 100%;
+        position: relative;
+    }
+
+    
+    .agenda-path {
+        display: none !important;
+    }
+
+    
+    .agenda-box {
+        width: 90%;
+        margin: 15px auto;
+        height: 150px;
+        border-radius: 20px;
+        background: #79c06e;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    .box-center {
+        background: #4f8ae2;
+    }
+
+    .box-right {
+        background: #9b57c6;
+    }
+
+    .agenda-pipe,
+    .agenda-star {
+        display: none !important;
+    }
+}
