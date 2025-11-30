@@ -388,55 +388,75 @@ body {
     }
 
 }
+/* SECTION TITLE */
 .faq-section {
   text-align: center;
   margin-top: 40px;
 }
 
+/* MAIN FAQ CONTAINER */
 .faq-box {
-  width: 600px;        
-  margin: 0 auto;      
-  background: #CCCCCC; 
-  padding: 15px;
-  border: 3px solid #E40406;  /* red border from Mario palette */
-  border-radius: 6px;         
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2), /* subtle depth */
-              0 0 10px #FED800,          /* yellow glow */
-              0 0 12px #09A3EB;          /* blue glow */
+  width: 700px;
+  margin: 0 auto;
+  background: #F5F5F5;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+/* EACH FAQ ITEM */
 .faq-item {
-  margin-bottom: 10px;
-  background: #CCCCCC; 
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
 }
 
+/* THE QUESTION BUTTON */
 .faq-question {
   width: 100%;
-  background: #CCCCCC; 
+  background: #EAEAEA;
   border: none;
-  padding: 12px 15px;
-  text-align: left;
+  padding: 15px 18px;
+  font-size: 17px;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
-  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.2s;
 }
 
-.faq-answer {
-  background: #CCCCCC; 
-  padding: 10px 15px;
-  border-top: 1px solid #ccc;
-  font-size: 15px;
+.faq-question:hover {
+  background: #DCDCDC;
 }
+
+/* TEXT HIGHLIGHT COLOR */
 .highlight {
-  color: white; 
-  font-weight: bold; 
+  color: #333;
+  font-weight: bold;
 }
+
+/* ANSWER BOX */
 .faq-answer {
-  display: none; /* hide answers at start */
+  display: none;
+  background: #ffffff;
+  padding: 15px 20px;
+  border-left: 3px solid #ddd;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
 }
+
+/* ARROW ICON */
 .arrow {
-  display: inline-block; 
-  transition: transform 0.3s ease; /* smooth rotation */
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
+
+/* ROTATE ARROW WHEN ITEM OPEN */
+.faq-question.active .arrow {
+  transform: rotate(180deg);
+}
+
