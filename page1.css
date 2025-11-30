@@ -398,7 +398,7 @@ body {
 .faq-box {
   width: 700px;
   margin: 0 auto;
-  background: #F5F5F5;
+  background: #CCCCCC;
   padding: 30px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -415,7 +415,7 @@ body {
 /* THE QUESTION BUTTON */
 .faq-question {
   width: 100%;
-  background: #EAEAEA;
+  background: #CCCCCC;
   border: none;
   padding: 15px 18px;
   font-size: 17px;
@@ -440,7 +440,7 @@ body {
 /* ANSWER BOX */
 .faq-answer {
   display: none;
-  background: #ffffff;
+  background: #DEDEE3;
   padding: 15px 20px;
   border-left: 3px solid #ddd;
   border-radius: 6px;
