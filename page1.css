@@ -397,7 +397,7 @@ body {
 /* MAIN FAQ CONTAINER */
 .faq-box {
   width: 700px;
-  margin: 10px;
+  margin: 0 auto;
   background: #F5F5F5;
   padding: 30px;
   border: 1px solid #ddd;
