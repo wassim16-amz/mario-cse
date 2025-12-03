@@ -3,14 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Calibri', sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-top: 60px;
-
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
 }
 
 .navbar {
@@ -23,6 +27,7 @@ body {
     width: 100%;
     z-index: 1000;
     height: 53.5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navdiv {
@@ -111,6 +116,8 @@ body {
     border-radius: 15px;
     font-weight: bold;
     transition: 0.3s;
+    position: relative;
+    left: 40px;
 }
 
 .join_us {
@@ -150,8 +157,8 @@ body {
 }
 
 .content-section {
-    background-image: url(red_zigzag.png);
-    background-size: contain;
+    background-image: url(assets/red_zigzag.png);
+    background-size: cover;
     position: relative;
     height: 500px;
     padding: 200px;
@@ -163,14 +170,15 @@ body {
 .cadre {
     background-color: rgb(44, 44, 44);
     border-radius: 19px;
-    background-image: url(dark.png);
+    position: relative;
+    background-image: url(assets/dark.png);
     max-width: 900px;
     width: 90%;
     height: 280px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: -95px;
-    margin-left: 40px;
+    top: -90px;
+    left: 45px;
 
 }
 
@@ -192,34 +200,36 @@ body {
 .text-content {
     flex: 1;
     min-width: 300px;
+    position: relative;
 }
 
 #pp {
     color: #ffffff;
+    position: relative;
     padding: 10px;
     line-height: 1.6;
 }
 
-@media (max-width: 1200px) {
-    #side {
-        float: none;
-        margin: 0 auto 20px auto;
-        display: block;
-    }
 
-    .cadre {
-        margin-left: auto;
-        margin-right: auto;
-    }
+#side {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
 }
 
+.cadre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .bg {
-    background-image: url('mkbg.jpg');
+    background-image: url('assets/mkbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     z-index: 1;
-    margin-top: -20px;
+    margin-top: 40px;
 
 }
 
@@ -236,8 +246,8 @@ body {
     width: 100px;
     height: auto;
     float: right;
-    margin-top: -300px;
-    margin-right: 225px;
+    top: -300px;
+    right: 225px;
     position: relative;
 }
 
@@ -259,12 +269,12 @@ body {
 }
 
 .wbg {
-    background-image: url(white_zigzag.png);
-    background-size: contain;
+    background-image: url(assets/white_zigzag.png);
+    background-size: cover;
     position: relative;
     height: 670px;
     padding: 200px;
-    margin-top: -200px;
+    top: -200px;
     z-index: 7;
 
 
@@ -332,7 +342,7 @@ body {
 .agenda {
     padding: 40px 20px 80px;
     background-color: #1E268A;
-    margin-top: -175px;
+    top: -375px;
     height: 730px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -343,7 +353,8 @@ body {
 .agenda-title {
     color: #ecf0f1;
     text-align: center;
-    margin-bottom: 10px;
+    position: relative;
+    top: 25px;
 }
 
 .agenda-pipe {
@@ -382,12 +393,12 @@ body {
 
 .box-left {
     left: 9%;
-    top: 170px;
+    top: 150px;
 }
 
 .box-center {
     left: 51%;
-    top: 280px;
+    top: 256px;
     transform: translateX(-50%) scale(1);
 }
 
@@ -397,7 +408,7 @@ body {
 
 .box-right {
     right: 6.5%;
-    top: 170px;
+    top: 150px;
 }
 
 #path1 {
@@ -444,7 +455,8 @@ body {
     left: 762px;
     top: 336px;
 }
-#lvl1{
+
+#lvl1 {
     position: relative;
     z-index: 1;
     width: 320px;
@@ -452,7 +464,8 @@ body {
     left: 19%;
 
 }
-#lvl2{
+
+#lvl2 {
     position: relative;
     z-index: 1;
     width: 320px;
@@ -460,7 +473,8 @@ body {
     left: 19%;
 
 }
-#lvl3{
+
+#lvl3 {
     position: relative;
     z-index: 1;
     width: 320px;
@@ -630,6 +644,18 @@ body {
     margin-top: 180px;
 }
 
+.the_sponsors {
+    position: relative;
+    z-index: 6;
+    margin-top: -540px;
+    
+}
+
+.sponso {
+    position: relative;
+    bottom: 10%;
+    left: 45px;
+}
 
 .sponso_i {
     position: relative;
@@ -663,21 +689,22 @@ body {
 #coin1 {
     position: relative;
     width: 30px;
-    bottom: -55px;
-    right: 17px;
+    top: 12px;
+    right: 120px;
 }
 
 #etoile {
     position: relative;
     width: 50px;
-    margin-right: 240px;
-    margin-bottom: -63px;
+    right: 75px;
+    top: 25px;
 }
 
 #coin2 {
     width: 30px;
-    margin-bottom: -55px;
-    margin-left: -60px;
+    position: relative;
+    top: 12px;
+    right: -120px;
 
 }
 
@@ -687,10 +714,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
+    position: relative;
+    
 }
 
 .sponso_zigzag {
-    background-image: url(gray_zigzag.png);
+    background-image: url(assets/gray_zigzag.png);
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -700,27 +729,38 @@ body {
 }
 
 h1 {
-    color: #333;
-    margin-bottom: 10px;
+    color: #000000;
+    position: relative;
+    top: -39px;
+    left: 10px;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 16px;
 }
 
 p {
     color: #666;
     margin-bottom: 30px;
+
+}
+
+.sponso_i p {
+    position: relative;
+    right: 27px;
 }
 
 .finnaly {
-    background-image: url(light-mirror.svg);
+    background-image: url(assets/light-mirror.svg);
     position: relative;
     z-index: 0;
     padding-top: 140px;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 
 .contact {
     text-align: right;
     margin-right: 215px;
-    margin-bottom:-265px ;
+    margin-bottom: -265px;
 }
 
 .sm {

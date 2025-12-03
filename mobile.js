@@ -1,3 +1,6 @@
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('active');
+});
 class HorizontalPopupManager {
     constructor() {
         this.currentPopup = null;
