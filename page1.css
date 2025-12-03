@@ -390,30 +390,57 @@ body {
 }
 /* SECTION TITLE */
 .faq-section {
+  background-image: url(assets/yellow-zigzag.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 4;
+  height: 600px;
+  position: relative;
   text-align: center;
-  margin-top: 40px;
+  bottom: 420px;
 }
-
-/* MAIN FAQ CONTAINER */
+#coin-block{
+    position: relative;
+    top: -70px;
+    right: -35px;
+}
+#bfaq{
+    position: relative;
+    top: -106px;
+    z-index: 5;
+    font-size: 20px;
+}
+#sfaq{
+    position: relative;
+    top: -105px;
+    color: #333333;
+    z-index: 5;
+}
 .faq-box {
   width: 700px;
   height: 300px;
-  margin: 0 auto;
+  position: relative;
+  top: -12%;
+  left: 22.5%;
   background: #CCCCCC;
   padding: 30px;
+  height: 312px;
   border: 1px solid #ddd;
-  border-radius: 0px;
+  border-radius: 18px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-
-/* EACH FAQ ITEM */
+#gt{
+    position: relative;
+    right: 300px;
+    width: 180px;
+    z-index: 0;
+    top: 55px;
+}
 .faq-item {
   margin-bottom: 20px;
   padding-bottom: 12px;
   border-bottom: 1px solid #ddd;
 }
-
-/* THE QUESTION BUTTON */
 .faq-question {
   width: 100%;
   background: #CCCCCC;
@@ -427,18 +454,13 @@ body {
   border-radius: 8px;
   transition: background 0.2s;
 }
-
 .faq-question:hover {
   background: #DCDCDC;
 }
-
-/* TEXT HIGHLIGHT COLOR */
 .highlight {
-  color: #ffffff;
+  color: #F6F6F6;
   font-weight: bold;
 }
-
-/* ANSWER BOX */
 .faq-answer {
   display: none;
   background: #DEDEE3;
@@ -446,17 +468,25 @@ body {
   border-left: 3px solid #ddd;
   border-radius: 6px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 10px;
   line-height: 1.5;
 }
-
-/* ARROW ICON */
+#coin_faq{
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 50px;
+}
+#coin_faq2{
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 0px;
+}
 .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
 }
-
-/* ROTATE ARROW WHEN ITEM OPEN */
 .faq-question.active .arrow {
   transform: rotate(180deg);
 }
