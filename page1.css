@@ -9,6 +9,8 @@
 @font-face {
     font-family: 'Daydream';
     src: url(assets/Daydream\ DEMO.otf);
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
 }
 
 body {
@@ -68,22 +70,34 @@ body {
 
 #htitle {
     color: white;
-    margin-left: 6.5px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 9px;
 }
 
 #utitle {
     color: white;
-    margin-left: -4px;
+    position: relative;
+    right: 1px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
 }
 
 #atitle {
     color: white;
-    margin-left: -9.5px;
+    position: relative;
+    left: -5px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
 }
 
 #ctitle {
     color: white;
-    margin-left: 2.5px;
+    position: relative;
+    left: 7px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
 }
 
 #abtus {
@@ -110,26 +124,11 @@ body {
 
 
 .btn {
-    background-color: #ff1900;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 15px;
-    font-weight: bold;
-    transition: 0.3s;
     position: relative;
     left: 40px;
+    top: 10px;
 }
 
-.join_us {
-    padding: 20px;
-    margin-top: 60px;
-}
-
-.btn:hover {
-    background-color: #c0392b;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 #scw {
     width: 350px;
@@ -141,12 +140,42 @@ body {
 
 .scw_i {
     margin-top: -55px;
-    border: 2px solid rgba(255, 255, 255, 0.9);
-    background-color: rgba(255, 255, 255, 0.9);
     padding: 10px;
     height: 125px;
     width: 500px;
     border-radius: 19px;
+}
+
+#where {
+    position: relative;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
+    color: #000000;
+    top: -20px;
+
+}
+
+#mapsign {
+    position: relative;
+    right: 90px;
+    top: 11px;
+}
+
+#groupe {
+    position: relative;
+    bottom: 47px;
+    right: 90px;
+}
+
+#when {
+    position: relative;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
+    color: #000000;
+    top: -78px;
+
 }
 
 .image-container2 {
@@ -208,6 +237,9 @@ body {
     position: relative;
     padding: 10px;
     line-height: 1.6;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
 }
 
 
@@ -303,13 +335,20 @@ body {
 
 #pp2 {
     line-height: 1.6;
-    margin-top: 15px;
+    position: relative;
+    top: 15px;
     margin-right: 150px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 18px;
+    color: #000000;
+    
 }
 
 #id {
-    margin-bottom: 10px;
-    margin-left: 60px;
+    position: relative;
+    top: -10px;
+    left: 60px;
 }
 
 
@@ -360,7 +399,7 @@ body {
 .agenda-pipe {
     position: absolute;
     padding-right: 10px;
-    bottom: 88px;
+    bottom: 118px;
     width: 95.67px;
     height: 86.37PX;
     margin-left: -78px;
@@ -374,15 +413,128 @@ body {
     border-radius: 12px;
     padding: 20px;
     position: absolute;
-    font-size: 18px;
     line-height: 1.2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     z-index: 8;
     width: 285px;
-    height: 360px;
+    height: 390px;
     cursor: pointer;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
+
+}
+
+#loupe {
+    position: relative;
+    width: 30px;
+    left: 226px;
+    bottom: 15px;
+}
+
+#g1 {
+    position: relative;
+    top: -25px;
+}
+
+#day {
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+    left: 90px;
+}
+
+#month {
+    position: relative;
+    top: -30px;
+    left: 72px;
+}
+
+#time {
+    position: relative;
+    top: -35px;
+    color: #D5FFEE;
+}
+
+#check_in {
+    position: relative;
+    top: -80px;
+    left: 60px;
+    color: #FFD2D2;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 20px;
+}
+
+#prg {
+    font-size: 12px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 12.5px;
+}
+
+#time2 {
+    position: relative;
+    top: -110px;
+    color: #D5FFEE;
+}
+
+#ocidk {
+    position: relative;
+    left: 50px;
+    top: -170px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #F6F6F6;
+
+}
+
+#oc {
+    position: relative;
+    left: 50px;
+    top: -153px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #FFD2D2;
+
+}
+
+#time3 {
+    position: relative;
+    top: -180px;
+    color: #D5FFEE;
+}
+
+#cb {
+    position: relative;
+    left: 50px;
+    top: -224px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #FFD2D2;
+}
+
+#cbidk {
+    position: relative;
+    left: 50px;
+    top: -250px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #F6F6F6;
+
 }
 
 .agenda-box:hover {
@@ -393,12 +545,12 @@ body {
 
 .box-left {
     left: 9%;
-    top: 150px;
+    top: 110px;
 }
 
 .box-center {
     left: 51%;
-    top: 256px;
+    top: 236px;
     transform: translateX(-50%) scale(1);
 }
 
@@ -407,8 +559,8 @@ body {
 }
 
 .box-right {
-    right: 6.5%;
-    top: 150px;
+    right: 6.8%;
+    top: 110px;
 }
 
 #path1 {
@@ -424,7 +576,7 @@ body {
     width: 50.04px;
     height: 41.28px;
     left: 513px;
-    top: 29px;
+    top: 9px;
 }
 
 #path2 {
@@ -455,10 +607,12 @@ body {
     left: 762px;
     top: 336px;
 }
-#l1{
+
+#l1 {
     font-size: 10px;
 }
-#hl1{
+
+#hl1 {
     font-size: 20px;
 }
 
@@ -654,7 +808,7 @@ body {
     position: relative;
     z-index: 6;
     margin-top: -540px;
-    
+
 }
 
 .sponso {
@@ -674,7 +828,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
     margin-top: 35px;
 }
@@ -715,23 +869,25 @@ body {
 }
 
 .sponso {
-    background-color: white;
     padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     position: relative;
-    
+
 }
 
 .sponso_zigzag {
     background-image: url(assets/gray_zigzag.png);
     background-size: cover;
     position: relative;
-    z-index: 1;
-    height: 700px;
+    z-index: 6;
+    height: 690px;
     padding: 200px;
 
+}
+
+.tired {
+    position: relative;
+    bottom: 70px;
 }
 
 h1 {
@@ -747,6 +903,9 @@ h1 {
 p {
     color: #666;
     margin-bottom: 30px;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
 
 }
 
@@ -881,3 +1040,118 @@ p {
     margin-top: -38px;
 }
 
+.faq-section {
+    background-image: url(assets/yellow-zigzag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    bottom: 420px;
+}
+
+#coin-block {
+    position: relative;
+    top: -70px;
+    right: -35px;
+}
+
+#bfaq {
+    position: relative;
+    top: -106px;
+    z-index: 5;
+    font-size: 20px;
+}
+
+#sfaq {
+    position: relative;
+    top: -105px;
+    color: #333333;
+    z-index: 5;
+}
+
+.faq-box {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: -12%;
+    left: 22.5%;
+    background: #CCCCCC;
+    padding: 30px;
+    height: 312px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#gt {
+    position: relative;
+    right: 300px;
+    width: 180px;
+    z-index: 0;
+    top: 55px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    background: #CCCCCC;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.faq-question:hover {
+    background: #DCDCDC;
+}
+
+.highlight {
+    color: #F6F6F6;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    background: #DEDEE3;
+    padding: 15px 20px;
+    border-left: 3px solid #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+#coin_faq {
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 50px;
+}
+
+#coin_faq2 {
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 0px;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active .arrow {
+    transform: rotate(180deg);
+}
