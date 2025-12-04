@@ -1,0 +1,1157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+}
+
+body {
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
+}
+
+.navbar {
+    background: #0b3155;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 53.5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ecf0f1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 125px;
+    margin-right: 170px;
+}
+
+
+.nav-links li a {
+    color: #ecf0f1;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+
+
+#gold {
+    width: 40px;
+    height: 41px;
+    margin-top: -5px;
+}
+
+#htitle {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 9px;
+}
+
+#utitle {
+    color: white;
+    position: relative;
+    right: 1px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+
+#atitle {
+    color: white;
+    position: relative;
+    left: -5px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+
+#ctitle {
+    color: white;
+    position: relative;
+    left: 7px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+
+#abtus {
+    width: 14.9px;
+    height: 27px;
+    margin-top: -5px;
+}
+
+#abtsws {
+    width: 22px;
+    height: 22px;
+}
+
+#homesvg {
+    width: 26.9px;
+    height: 26px;
+    margin-top: -5px;
+}
+
+#contactus {
+    width: 31px;
+    height: 19px;
+}
+
+
+.btn {
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+
+#scw {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: -20px;
+}
+
+.scw_i {
+    margin-top: -55px;
+    padding: 10px;
+    height: 125px;
+    width: 500px;
+    border-radius: 19px;
+}
+
+#where {
+    position: relative;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
+    color: #000000;
+    top: -20px;
+
+}
+
+#mapsign {
+    position: relative;
+    right: 90px;
+    top: 11px;
+}
+
+#groupe {
+    position: relative;
+    bottom: 47px;
+    right: 90px;
+}
+
+#when {
+    position: relative;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
+    color: #000000;
+    top: -78px;
+
+}
+
+.image-container2 {
+    margin-right: -76px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.content-section {
+    background-image: url(assets/red_zigzag.png);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    padding: 200px;
+    margin-top: -45px;
+    z-index: 99;
+    background-repeat: no-repeat;
+}
+
+.cadre {
+    background-color: rgb(44, 44, 44);
+    border-radius: 19px;
+    position: relative;
+    background-image: url(assets/dark.png);
+    max-width: 900px;
+    width: 90%;
+    height: 280px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: -90px;
+    left: 45px;
+
+}
+
+.cadre-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#side {
+    width: 250px;
+    height: auto;
+    border-radius: 19px;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+#pp {
+    color: #ffffff;
+    position: relative;
+    padding: 10px;
+    line-height: 1.6;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 16px;
+}
+
+
+#side {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.cadre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bg {
+    background-image: url('assets/mkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    z-index: 1;
+    margin-top: 40px;
+
+}
+
+#turtle1 {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: -300px;
+    margin-left: 225px;
+    position: relative;
+}
+
+#turtle2 {
+    width: 100px;
+    height: auto;
+    float: right;
+    top: -300px;
+    right: 225px;
+    position: relative;
+}
+
+.cadre2 {
+
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    margin-left: -100px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -130px;
+}
+
+.wbg {
+    background-image: url(assets/white_zigzag.png);
+    background-size: cover;
+    position: relative;
+    height: 670px;
+    padding: 200px;
+    top: -200px;
+    z-index: 7;
+
+
+}
+
+.about_cse {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+}
+
+#imgcse {
+    max-width: 453px;
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: -70px;
+}
+
+.text2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+#pp2 {
+    line-height: 1.6;
+    position: relative;
+    top: 15px;
+    margin-right: 150px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 18px;
+    color: #000000;
+    
+}
+
+#id {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+
+
+#mini_id {
+    display: block;
+    margin-bottom: 15px;
+    color: #666;
+    margin-left: 104px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #imgcse {
+        max-width: 250px;
+    }
+}
+
+#mashroom {
+    width: 200px;
+    height: 150;
+    float: left;
+    margin-left: -160px;
+    margin-top: -130px;
+}
+
+.agenda {
+    padding: 40px 20px 80px;
+    background-color: #1E268A;
+    top: -375px;
+    height: 730px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+}
+
+.agenda-title {
+    color: #ecf0f1;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.agenda-pipe {
+    position: absolute;
+    padding-right: 10px;
+    bottom: 118px;
+    width: 95.67px;
+    height: 86.37PX;
+    margin-left: -78px;
+    transform: rotate(90deg);
+}
+
+.agenda-box {
+    width: 220px;
+    background: #237A26;
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    position: absolute;
+    line-height: 1.2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 8;
+    width: 285px;
+    height: 390px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
+
+}
+
+#loupe {
+    position: relative;
+    width: 30px;
+    left: 226px;
+    bottom: 15px;
+}
+
+#g1 {
+    position: relative;
+    top: -25px;
+}
+
+#day {
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+    left: 90px;
+}
+
+#month {
+    position: relative;
+    top: -30px;
+    left: 72px;
+}
+
+#time {
+    position: relative;
+    top: -35px;
+    color: #D5FFEE;
+}
+
+#check_in {
+    position: relative;
+    top: -80px;
+    left: 60px;
+    color: #FFD2D2;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 20px;
+}
+
+#prg {
+    font-size: 12px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 12.5px;
+}
+
+#time2 {
+    position: relative;
+    top: -110px;
+    color: #D5FFEE;
+}
+
+#ocidk {
+    position: relative;
+    left: 50px;
+    top: -170px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #F6F6F6;
+
+}
+
+#oc {
+    position: relative;
+    left: 50px;
+    top: -153px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #FFD2D2;
+
+}
+
+#time3 {
+    position: relative;
+    top: -180px;
+    color: #D5FFEE;
+}
+
+#cb {
+    position: relative;
+    left: 50px;
+    top: -224px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #FFD2D2;
+}
+
+#cbidk {
+    position: relative;
+    left: 50px;
+    top: -250px;
+    font-family: 'Game Paused DEMO';
+    src: url(assets/Game\ Paused\ DEMO.otf);
+    font-size: 15px;
+    color: #F6F6F6;
+
+}
+
+.agenda-box:hover {
+    transform: scale(1.05);
+    border-color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.box-left {
+    left: 9%;
+    top: 110px;
+}
+
+.box-center {
+    left: 51%;
+    top: 236px;
+    transform: translateX(-50%) scale(1);
+}
+
+.box-center:hover {
+    transform: translateX(-50%) scale(1.05);
+}
+
+.box-right {
+    right: 6.8%;
+    top: 110px;
+}
+
+#path1 {
+    position: relative;
+    z-index: 0;
+    bottom: -345px;
+    left: 30px;
+}
+
+#sign {
+    position: relative;
+    z-index: 0;
+    width: 50.04px;
+    height: 41.28px;
+    left: 513px;
+    top: 9px;
+}
+
+#path2 {
+    position: relative;
+    z-index: 0;
+    left: 192px;
+    bottom: -240px;
+}
+
+#path3 {
+    position: relative;
+    z-index: 0;
+    left: 490px;
+    bottom: -310px;
+}
+
+.agenda-star {
+    position: absolute;
+    right: 34px;
+    bottom: 72px;
+    width: 48px;
+    transform: rotate(8.2deg);
+}
+
+#path4 {
+    position: relative;
+    z-index: 0;
+    left: 762px;
+    top: 336px;
+}
+
+#l1 {
+    font-size: 10px;
+}
+
+#hl1 {
+    font-size: 20px;
+}
+
+#lvl1 {
+    position: relative;
+    z-index: 1;
+    width: 320px;
+    height: auto;
+    left: 19%;
+
+}
+
+#lvl2 {
+    position: relative;
+    z-index: 1;
+    width: 320px;
+    height: auto;
+    left: 19%;
+
+}
+
+#lvl3 {
+    position: relative;
+    z-index: 1;
+    width: 320px;
+    height: auto;
+    left: 19%;
+
+}
+
+.agenda-canvas p {
+    color: white;
+}
+
+.horizontal-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 90%;
+    max-width: 1000px;
+    max-height: 80vh;
+    background: linear-gradient(135deg, #237A26 0%, #1a5a1c 100%);
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    color: white;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.horizontal-popup.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.horizontal-popup-content {
+    display: flex;
+    height: 100%;
+    min-height: 450px;
+}
+
+.horizontal-popup-text {
+    flex: 0 0 60%;
+    padding: 40px;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.horizontal-popup-image {
+    flex: 0 0 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.horizontal-popup-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.horizontal-popup h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 15px;
+}
+
+.horizontal-popup p {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.horizontal-popup-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 25px 0 15px 0;
+    padding-left: 15px;
+    border-left: 4px solid #ffffff;
+}
+
+.horizontal-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+.horizontal-close-btn:hover {
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .horizontal-popup-content {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .horizontal-popup-image {
+        flex: 0 0 200px;
+    }
+
+    .horizontal-popup-text {
+        flex: 1;
+        padding: 25px;
+    }
+
+    .horizontal-popup {
+        width: 95%;
+        max-height: 90vh;
+    }
+
+    .agenda-canvas {
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#cse {
+    width: 101px;
+    height: 97px;
+    margin-left: -40px;
+    margin-top: 180px;
+}
+
+.the_sponsors {
+    position: relative;
+    z-index: 6;
+    margin-top: -540px;
+
+}
+
+.sponso {
+    position: relative;
+    bottom: 10%;
+    left: 45px;
+}
+
+.sponso_i {
+    position: relative;
+    text-align: center;
+    left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.img-sponso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.simg {
+    width: 175px;
+    height: auto;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.star {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#coin1 {
+    position: relative;
+    width: 30px;
+    top: 12px;
+    right: 120px;
+}
+
+#etoile {
+    position: relative;
+    width: 50px;
+    right: 75px;
+    top: 25px;
+}
+
+#coin2 {
+    width: 30px;
+    position: relative;
+    top: 12px;
+    right: -120px;
+
+}
+
+.sponso {
+    padding: 40px;
+    max-width: 800px;
+    position: relative;
+
+}
+
+.sponso_zigzag {
+    background-image: url(assets/gray_zigzag.png);
+    background-size: cover;
+    position: relative;
+    z-index: 6;
+    height: 690px;
+    padding: 200px;
+
+}
+
+.tired {
+    position: relative;
+    bottom: 70px;
+}
+
+h1 {
+    color: #000000;
+    position: relative;
+    top: -39px;
+    left: 10px;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 16px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+    font-family: 'Daydream';
+    src: url(assets/Daydream\ DEMO.otf);
+    font-size: 10px;
+
+}
+
+.sponso_i p {
+    position: relative;
+    right: 27px;
+}
+
+.finnaly {
+    background-image: url(assets/light-mirror.svg);
+    position: relative;
+    z-index: 0;
+    padding-top: 140px;
+    margin-top: -70px;
+}
+
+.contact {
+    text-align: right;
+    margin-right: 215px;
+    margin-bottom: -265px;
+}
+
+.sm {
+    width: 70px;
+    padding-left: 1070px;
+    position: relative;
+    bottom: -110px;
+
+}
+
+#fb {
+    width: 40px;
+    height: auto;
+}
+
+#insta {
+    width: 40px;
+    height: auto;
+}
+
+#in {
+    width: 40px;
+    height: auto;
+}
+
+#x {
+    width: 40px;
+    height: auto;
+}
+
+#cool {
+    width: 154px;
+    height: 304px;
+    position: relative;
+    float: right;
+    margin-top: -160px;
+}
+
+#pipes {
+    margin-top: -250px;
+    margin-bottom: -50px;
+    margin-left: 400px;
+    width: 104px;
+    height: 80.07;
+}
+
+#yoshi {
+    position: relative;
+    z-index: 0;
+    width: 95px;
+    height: 95px;
+    bottom: -50px;
+    left: 90px;
+}
+
+#mario {
+    width: 55.03px;
+    height: 100.86px;
+    position: relative;
+    left: 180px;
+    bottom: -44.8px;
+    z-index: 0;
+}
+
+#credit {
+    text-align: left;
+    position: relative;
+    width: 270px;
+    height: 40px;
+    left: 80px;
+    top: 325px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    color: #000000;
+    top: -10px;
+}
+
+.logos {
+    margin-top: -170px;
+    padding-bottom: 10px;
+    top: 30px;
+}
+
+#csl {
+    position: relative;
+    bottom: -100px;
+    left: 30px;
+}
+
+#new {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    width: 160px;
+    height: 160px;
+}
+
+.cntnr {
+    display: flex;
+    background: none;
+}
+
+
+.ground {
+    position: relative;
+    z-index: 3;
+    width: 640px;
+    height: 38px;
+    margin-top: -38px;
+}
+
+.faq-section {
+    background-image: url(assets/yellow-zigzag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    bottom: 420px;
+}
+
+#coin-block {
+    position: relative;
+    top: -70px;
+    right: -35px;
+}
+
+#bfaq {
+    position: relative;
+    top: -106px;
+    z-index: 5;
+    font-size: 20px;
+}
+
+#sfaq {
+    position: relative;
+    top: -105px;
+    color: #333333;
+    z-index: 5;
+}
+
+.faq-box {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: -12%;
+    left: 22.5%;
+    background: #CCCCCC;
+    padding: 30px;
+    height: 312px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#gt {
+    position: relative;
+    right: 300px;
+    width: 180px;
+    z-index: 0;
+    top: 55px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    background: #CCCCCC;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.faq-question:hover {
+    background: #DCDCDC;
+}
+
+.highlight {
+    color: #F6F6F6;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    background: #DEDEE3;
+    padding: 15px 20px;
+    border-left: 3px solid #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+#coin_faq {
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 50px;
+}
+
+#coin_faq2 {
+    position: relative;
+    width: 30px;
+    top: 10px;
+    right: 0px;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active .arrow {
+    transform: rotate(180deg);
+}

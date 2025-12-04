@@ -1,0 +1,74 @@
+body{
+  background-image: url('image.png'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.form-cadre {
+  width: 300px;
+  margin: 50px auto;
+  margin-top: 40px;
+  padding: 30px 20px;
+  background-color: rgba(255, 255, 255, 0.6); /* blanc semi‑transparent */
+  border: 1px solid rgba(221, 221, 221, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.form-cadre input[type="text"],
+.form-cadre input[type="email"],
+.form-cadre input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+.form-cadre input:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 4px rgba(66, 133, 244, 0.6);
+  outline: none;
+}
+
+.form-cadre label {
+  display: block;
+  margin-bottom: 6px;
+  color: #222;
+  font-size: 14px;
+}
+
+.form-cadre button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #f00808;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-cadre button[type="submit"]:hover {
+  background-color: #592fef;
+}
+#logo{
+  width: 400px;
+  height:auto;
+  margin-bottom: -70px;
+  
+}
+#cse{
+  width: 75px;
+  height: auto;
+}
+#team4{
+  float: right;
+}
